@@ -10,7 +10,6 @@ class VisitorChart extends ChartWidget
 
     protected function getData(): array
     {
-        // STATIS (Hard-coded)
         return [
             'datasets' => [
                 [

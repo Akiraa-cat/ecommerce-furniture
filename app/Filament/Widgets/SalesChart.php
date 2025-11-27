@@ -3,15 +3,11 @@
 namespace App\Filament\Widgets;
 
 use Filament\Widgets\ChartWidget;
-// use App\Models\Order;
-// use Flowframe\Trend\Trend;
-// use Flowframe\Trend\TrendValue;
 
 class SalesChart extends ChartWidget
 {    
     protected static ?int $sort = 2;
 
-    // Gunakan method getHeading() untuk heading dinamis
     public function getHeading(): ?string
     {
         return 'Sales Overview';
